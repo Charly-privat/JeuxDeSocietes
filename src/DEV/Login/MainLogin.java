@@ -1,4 +1,4 @@
 package DEV.Login;
 
-public class MainLogin {
+public class MainLogin{
 }

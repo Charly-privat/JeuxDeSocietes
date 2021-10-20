@@ -1,7 +1,9 @@
 package Main;
 
+import IHM.Menu.MainMenu;
+
 public class Main {
     public static void main(String[] args) {
-        MenuFrame menuFrame = new MenuFrame("Jeux de Sociétés");
+        MainMenu menuFrame = new MainMenu("Jeux de Sociétés");
     }
 }
