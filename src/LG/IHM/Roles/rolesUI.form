@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoupGarou.UI.rolesUI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="17" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="637" height="4280"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f72e2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RÔLES"/>
+        </properties>
+      </component>
+      <component id="702cc" class="javax.swing.JLabel" binding="loupAlphaImage">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/LG/Loup-Alpha/loup_alpha.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f4e76" class="javax.swing.JTextArea" binding="loupAlphaDescription">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b684" class="javax.swing.JLabel" binding="loupChamanImage">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/LG/Loup-Chaman/loup_chaman.PNG"/>
+          <labelFor value="688fb"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="688fb" class="javax.swing.JTextArea" binding="loupChamanDescription">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="26551" class="javax.swing.JLabel" binding="lgImage">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/LG/Loup-Garou/loup_garou.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3b390" class="javax.swing.JTextArea" binding="lgDescription">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e51f0" class="javax.swing.JLabel" binding="loupVoyantImage">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/LG/Loup-Voyant/loup_voyant.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1924e" class="javax.swing.JTextArea" binding="loupVoyantDescripion">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="10826" class="javax.swing.JLabel" binding="chasseurImage">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Solo/ChasseurDeTetes/chasseur-de-tetes.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7bd06" class="javax.swing.JTextArea" binding="chasseurDescription">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2b5f0" class="javax.swing.JLabel" binding="corrupteurImage">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Solo/Corrupteur/corrupteur.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8ec55" class="javax.swing.JTextArea" binding="corrupteurDescription">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="54130" class="javax.swing.JLabel" binding="fouImage">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Solo/Fou/fou.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b5a1e" class="javax.swing.JTextArea" binding="fouDescription">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cb792" class="javax.swing.JLabel" binding="villageoisMauditImage">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Solo/Villageois-Maudit/villageois_maudit.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4130" class="javax.swing.JTextArea" binding="villageoisMauditDescription">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="deafa" class="javax.swing.JLabel" binding="docteurImage">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Docteur/docteur.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="21406" class="javax.swing.JTextArea" binding="docteurDescription">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f8e8a" class="javax.swing.JLabel" binding="gdcImage">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/GardeDuCorps/garde_du_corps.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="260c5" class="javax.swing.JTextArea" binding="gdcDescription">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d6b70" class="javax.swing.JLabel" binding="geolierImage">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Geolier/geolier.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="262f9" class="javax.swing.JTextArea" binding="geolierDescription">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d71cd" class="javax.swing.JLabel" binding="maireImage">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Maire/maire.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ed1ac" class="javax.swing.JTextArea" binding="maireDescription">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c432f" class="javax.swing.JLabel" binding="mediumImage">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Medium/medium.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8cd2" class="javax.swing.JTextArea" binding="mediumDescription">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cc15f" class="javax.swing.JLabel" binding="tireurImage">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Tireur/tireur.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="47ca8" class="javax.swing.JTextArea" binding="tireurDescription">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c2e74" class="javax.swing.JLabel" binding="voyanteImage">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Voyante/voyante.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c4ea3" class="javax.swing.JTextArea" binding="voyanteDescription">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3b276" class="javax.swing.JLabel" binding="voyanteAuraImage">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="LoupGarou/Ressources/Villageois/Voyante-Aura/voyante_aura.PNG"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ad368" class="javax.swing.JTextArea" binding="voyanteAuraDescription">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
