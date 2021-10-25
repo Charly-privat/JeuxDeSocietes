@@ -1,4 +1,4 @@
-package LoupGarou.UI;
+package LG.IHM.Regles;
 
 import javax.swing.*;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;

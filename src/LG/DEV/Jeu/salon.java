@@ -1,4 +1,4 @@
-package LoupGarou.Code.Jeu;
+package LG.DEV.Jeu;
 
 public class salon {
 }

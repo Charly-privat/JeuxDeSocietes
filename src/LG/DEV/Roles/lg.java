@@ -1,4 +1,4 @@
-package LoupGarou.Code.Roles;
+package LG.DEV.Roles;
 
 public enum lg {
     LOUPALPHA("Loup Alpha",
