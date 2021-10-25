@@ -1,6 +1,6 @@
-package Main;
+package UNO.Main;
 
-import IHM.Menu.MainMenu;
+import UNO.IHM.Menu.MainMenu;
 
 public class Main {
     public static void main(String[] args) {

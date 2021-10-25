@@ -1,4 +1,4 @@
-package DEV.Register;
+package UNO.DEV.Register;
 
 public class MainRegister {
 }

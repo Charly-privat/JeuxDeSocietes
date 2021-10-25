@@ -1,4 +1,4 @@
-package IHM.Menu;
+package UNO.IHM.Menu;
 
 import javax.swing.*;
 import java.awt.*;

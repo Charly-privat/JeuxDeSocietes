@@ -1,4 +1,4 @@
-package IHM.Register;
+package LG.DEV.Register;
 
 public class MainRegister {
 }

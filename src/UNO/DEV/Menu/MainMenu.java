@@ -1,4 +1,4 @@
-package DEV.Menu;
+package UNO.DEV.Menu;
 
 public class MainMenu {
 
